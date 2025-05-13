@@ -15,10 +15,13 @@ require("dbcon.php");
 
 <body>
     <div class="container mt-5">
+        <div >
+            <a href="about_me.php" class=" mt-2 btn btn-dark float-end">About me</a>
+        </div>
 
-        <?php include("message.php"); ?>
         <div class="row">
             <div class="col-md-12">
+                <?php include("message.php"); ?>
                 <div class="card">
                     <div class="card-header">
                         <h4>Student Detail
@@ -26,7 +29,7 @@ require("dbcon.php");
                         </h4>
                     </div>
                     <div class="card-body">
-                        <table  style="font-size: 15px;" class="table table-bordered table-striped" >
+                        <table style="font-size: 15px;" class="table table-bordered table-striped">
                             <thead>
                                 <tr>
                                     <th>NO.</th>
